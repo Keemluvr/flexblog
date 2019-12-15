@@ -1,0 +1,28 @@
+.menu-bg {
+    background: var(--color-tertiary);
+}
+
+.menu-bg > .menu {
+    max-width: var(--gap-max-width);
+    margin: 0 auto;
+    padding: var(--gap-medium) 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-bg > .menu > .menu-logo > .titulo {
+    margin: 0 var(--gap-small);
+}
+
+.menu-bg > .menu > .menu-nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-bg > .menu > .menu-nav > ul .item {
+    display: block;
+    padding: var(--gap-small);
+}
+

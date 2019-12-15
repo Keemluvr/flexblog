@@ -1,0 +1,5 @@
+.menu-logo > .titulo {
+    color: var(--color-secondary);
+    font-size: var(--font-big);
+    font-weight: bold;
+}

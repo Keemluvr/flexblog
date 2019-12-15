@@ -1,0 +1,8 @@
+.menu-nav .item {
+    color: var(--color-secondary);
+    font-size: var(--font-medium);
+}
+
+.menu-nav .item:hover {
+    color: var(--color-primary);
+}
