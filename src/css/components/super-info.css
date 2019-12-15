@@ -1,0 +1,19 @@
+.superinfo-bg {
+    background: var(--color-primary);
+    color: var(--color-secondary);
+}
+
+.superinfo {
+    max-width: var(--gap-max-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: var(--gap-small);
+}
+
+.superinfo > a, .superinfo p {
+    text-decoration: none;
+    color: var(--color-secondary);
+    margin: 0 var(--gap-small) var(--gap-small) var(--gap-small);
+}
