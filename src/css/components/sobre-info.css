@@ -1,0 +1,11 @@
+.sobre-info {
+    font-size: var(--font-medium);
+    line-height: 1.4;
+    color: var(--color-backyard);
+}
+
+.sobre-info > .sobre-titulo {
+    font-size: var(--font-larger);
+    font-weight: bold;
+    color: var(--color-quaternary);
+}

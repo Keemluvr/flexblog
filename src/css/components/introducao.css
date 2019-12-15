@@ -1,0 +1,6 @@
+.introducao {
+    font-size: var(--font-larger);
+    line-height: 1;
+    font-weight: bold;
+    color: var(--color-quaternary);
+}

@@ -1,0 +1,23 @@
+.sobre {
+    border-top: 2px solid var(--color-tertiary);
+    border-bottom: 2px solid var(--color-tertiary);
+    max-width: var(--gap-max-width);
+    margin: 0 auto;
+    padding: var(--gap-larger) 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.sobre > .sobre-info {
+    flex: 2 1 300px;
+    margin: 0 var(--gap-small) var(--gap-big) var(--gap-small);
+}
+
+.sobre > .sobre-info > .sobre-titulo {
+    margin-bottom: var(--gap-big);
+}
+
+.sobre > .sobre-img {
+    flex: 1 1 160px;
+    margin: 0 var(--gap-small);
+}

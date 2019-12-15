@@ -1,0 +1,5 @@
+.introducao {
+    max-width: var(--gap-max-width);
+    margin: 0 auto;
+    padding: var(--gap-larger) var(--gap-small);
+}
