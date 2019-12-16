@@ -1,3 +1,4 @@
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
+    color: var(--color-quaternary);
 }

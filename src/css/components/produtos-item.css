@@ -1,0 +1,17 @@
+.produtos-item > .subtitle-item{
+    font-size: var(--font-larger);
+    color: var(--color-senary);
+    background: var(--color-septenary);
+}
+
+.produtos-item.-purple {
+    border-top: 8px solid var(--color-octonary);
+}
+
+.produtos-item.-pink {
+    border-top: 8px solid var(--color-nonary);
+}
+
+.produtos-item.-blue {
+    border-top: 8px solid var(--color-denary);
+}
