@@ -1,5 +1,5 @@
 ## Flexblog
-![alt text](design/screen.png)
+![screenshot flexbox](design/screen.png)
 ## Preview
 [Flexblog](https://flexblog-ten-swart.now.sh/src/index.html)
 ## Origamid  
