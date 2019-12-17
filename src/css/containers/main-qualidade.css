@@ -1,0 +1,23 @@
+.qualidade {
+    max-width: var(--size-larger);
+    margin: var(--gap-larger) auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.qualidade > .qualidade-item {
+    flex: 1 1 var(--size-medium);
+    margin: var(--gap-big) var(--gap-small);
+}
+
+.qualidade > .qualidade-item > .titulo-qualidade {
+    margin-bottom: var(--gap-big);
+}
+
+.qualidade > .qualidade-item > .titulo-qualidade:before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: var(--gap-small);
+}

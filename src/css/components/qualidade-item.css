@@ -1,0 +1,22 @@
+.qualidade > .qualidade-item > .titulo-qualidade {
+    font-size: var(--font-big);
+    color: var(--color-senary);
+}
+
+.qualidade > .qualidade-item:nth-of-type(3n+1) > .titulo-qualidade:before {
+    background: var(--color-octonary);
+}
+
+.qualidade > .qualidade-item:nth-of-type(3n+2) > .titulo-qualidade:before {
+    background: var(--color-nonary);
+}
+
+.qualidade > .qualidade-item:nth-of-type(3n+3) > .titulo-qualidade:before {
+    background: var(--color-denary);
+}
+
+.qualidade > .qualidade-item > .desc-qualidade {
+    font-size: var(--font-medium);
+    line-height: 1.4;
+    color: var(--color-quinary);
+}
