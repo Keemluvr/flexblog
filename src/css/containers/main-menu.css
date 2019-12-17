@@ -3,7 +3,7 @@
 }
 
 .menu-bg > .menu {
-    max-width: var(--gap-max-width);
+    max-width: var(--size-larger);
     margin: 0 auto;
     padding: var(--gap-medium) 0;
     display: flex;

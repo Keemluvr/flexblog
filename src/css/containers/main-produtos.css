@@ -1,5 +1,5 @@
 .produtos {
-    max-width: var(--gap-max-width);
+    max-width: var(--size-larger);
     margin: var(--gap-larger) auto;
 }
 

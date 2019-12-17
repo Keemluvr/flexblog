@@ -1,0 +1,73 @@
+.preco {
+    background: var(--color-septenary);
+    padding: var(--gap-larger);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+.preco > .preco-item {
+    flex: 1 1 260px;
+    padding: var(--gap-big);
+    margin: var(--gap-small);
+}
+
+.preco > .preco-item > .titulo-item { 
+    text-align: center;
+    margin-top: var(--gap-big);
+}
+
+.preco > .preco-item > .valor-item {
+    max-width: var(--size-medium);
+    margin: var(--gap-big) auto;
+    display: block;
+    text-align: center;
+    padding: var(--gap-small) 0 var(--gap-smaller) 0;
+}
+
+.preco > .preco-item > .beneficios-item {
+    max-width: var(--size-medium);
+    margin: var(--gap-medium) auto;
+}
+
+.preco > .preco-item > .beneficios-item > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--gap-medium);
+}
+
+/* TO-DO: verificar se pseudo element é nessa pasta */
+.preco > .preco-item > .beneficios-item > li:after {
+    content: '';
+    display: block;
+    width: var(--size-smaller);
+    height: var(--size-smaller);
+    background: var(--color-tertiary);
+    border-radius: 50%;
+}
+
+@media (max-width: 800px) {
+    .preco {
+        padding-left: var(--gap-small);
+        padding-right: var(--gap-small);
+    }
+
+    .preco > .preco-item:nth-child(3) {
+        order: -2;
+    }
+
+    .preco > .preco-item:nth-child(2) {
+        order: -1;
+    }
+}
+
+/* ----- */
+
+.preco > .preco-item > .botao-simples {
+    max-width: var(--size-medium);
+    display: block;
+    margin:var(--gap-medium) auto;
+    padding: var(--gap-medium) 0;
+    text-align: center;
+}

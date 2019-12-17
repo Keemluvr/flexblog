@@ -1,7 +1,7 @@
 .sobre {
     border-top: 2px solid var(--color-tertiary);
     border-bottom: 2px solid var(--color-tertiary);
-    max-width: var(--gap-max-width);
+    max-width: var(--size-larger);
     margin: 0 auto;
     padding: var(--gap-larger) 0;
     display: flex;

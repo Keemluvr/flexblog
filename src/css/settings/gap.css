@@ -1,8 +1,7 @@
 :root {
+    --gap-smaller: 5px;
     --gap-small: 10px;
     --gap-medium: 15px;
     --gap-big: 20px;
     --gap-larger: 60px;
-
-    --gap-max-width: 960px;
 }

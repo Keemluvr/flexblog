@@ -4,7 +4,7 @@
 }
 
 .info {
-    max-width: var(--gap-max-width);
+    max-width: var(--size-larger);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
