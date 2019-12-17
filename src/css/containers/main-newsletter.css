@@ -41,3 +41,9 @@
     flex: 1 1 200px;
     padding: var(--gap-medium) var(--gap-small);
 }
+
+@media(max-width:600px) {
+    .newsletter > .newsletter-form > .botao-grande {
+        font-size: 1.5em;
+    }
+}
